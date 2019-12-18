@@ -4,6 +4,8 @@
 
 ## [JAVA](./java)
 
+## [Python](./Python)
+
 ## 기타
 
 * [Git](./git)
