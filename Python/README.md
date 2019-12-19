@@ -2,11 +2,21 @@
 
 ## 1. 저장
 
-### 1) 숫자
-### 2) 글자
-### 3) 참/거짓
+### 1) 저장
+### 2) 조건
+### 3) 반복
 
-## 2. 조건
+## 2. Crawling
 
-## 3. 반복
+* requests
+* bs4
+  * BeautifulSoup
+* webbrowser
 
+## 3. App
+
+* flask
+  * Flask
+  * render_template
+  * request
+* datetime
