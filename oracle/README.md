@@ -1,4 +1,0 @@
-# ORACLE
-
-## SQL 
-
