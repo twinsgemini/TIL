@@ -144,6 +144,139 @@ select deptno, round(avg(sal)) 전체평균급여 from emp group by deptno;
 
 
 
+select avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp;
+-- * 대신 특정변수 기입하면 null값은 비포함하여 집계한다.
+
+select avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp
+where deptno = 10;
+
+select avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp
+where deptno = 40;
+
+select avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp
+group by deptno;
+
+select deptno, avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp
+group by deptno;
+-- group by 시킨 변수 deptno는 집계함수없이 select절에 올 수 있다.
+
+select emp.deptno, dname, avg(sal), count(*), min(sal), max(sal), count(mgr)
+from emp, dept 
+where emp.deptno = dept.deptno
+group by emp.deptno, dname;
+
+col dname for a10;
+
+
+****************
+select
+from
+where
+group by
+having
+order by
+****************
+-- 부서번호별 평균급여가 2000이상인 목록 출력
+select e.deptno, dname, round(avg(sal)) as "평균급여"
+from emp e, dept d
+where e.deptno = d.deptno
+group by e.deptno, dname
+having round(avg(sal)) >= 2000;
+
+
+-- subQuery
+
+-- Ford 보다 급여가 많은 사원 목록
+
+select sal from emp where ename = 'FORD';
+
+select *
+from emp 
+where sal > (select sal from emp where ename = 'FORD');
+
+-- 전체 평균 급여보다 적게 받는 사원 목록
+select *
+from emp
+where sal < (select avg(sal) from emp);
+
+-- 최소 급여 받는 사람의 목록
+select *
+from emp
+where sal = (select min(sal) from emp);
+
+-- 부서별 최고 급여를 받는 사람 목록
+select * from emp
+where sal in (select max(sal) from emp group by deptno);
+
+-- !! 위의 쿼리는 명확하지 않다. deptno도 함께 확인해야 정확하다.
+select * from emp
+where (deptno, sal) in (select deptno, max(sal) from emp group by deptno)
+order by deptno;
+
+
+********************
+-- rownum
+********************
+
+select ename, job, sal
+from emp;
+
+select rownum, ename, job, sal
+from emp;
+
+select rownum, ename, job, sal
+from emp
+order by sal;
+-- rownum 이후 order by 절 처리하여 순서 뒤바뀜.
+
+select rownum, ename, job, sal
+from (select * from emp order by sal);
+
+select rownum, ename, job, sal
+from (select * from emp order by sal desc)
+where rownum < 4;
+
+select rownum, ename, job, sal
+from (select * from emp order by sal desc)
+where rownum between 1 and 3;
+
+-- oracle page 처리
+select rownum, ename, job, sal
+from (select * from emp order by sal desc)
+where rownum between 6 and 10;
+--오류 : rownum생성이 1 부터 이루어져(?) 중간 부분부터 따로 뽑을 수 없다.
+
+select *
+from (
+	select rownum row#, ename, job, sal
+	from (select * from emp order by sal desc)
+	)
+where row# between 6 and 10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
