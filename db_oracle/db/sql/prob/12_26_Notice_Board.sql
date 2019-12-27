@@ -54,7 +54,7 @@ select * from users where (id, password) = ('고길동','123abc');
 --	게시판 글등록
 insert into board(seq,title,content,id)
 values(
-	nvl((select max(seq) from board)+1,1),
+	(select nvl(max(seq),0)+1 from board),
 	'가입인사','안녕하세요 최길동입니다','choi');
 insert into board(seq,title,content,id)
 values(
