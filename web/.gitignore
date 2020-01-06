@@ -42,3 +42,20 @@ target/
 *.plx
 
 # End of https://www.gitignore.io/api/java,java-web,oracleforms
+
+### Web ###
+*.asp
+*.cer
+*.csr
+*.css
+*.htm
+*.html
+*.js
+*.jsp
+*.php
+*.rss
+*.wasm
+*.wat
+*.xhtml
+
+# End of https://www.gitignore.io/api/web
