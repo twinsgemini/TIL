@@ -4,10 +4,19 @@
 
 ## [JAVA](./java)
 
+## [ORACLE]()
+
 ## [Python](./Python)
+
+## [WEB]()
+
+## [SPRING]()
 
 ## 기타
 
 * [Git](./git)
 * 마크다운
+
+
+
 
