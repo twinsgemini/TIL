@@ -4,13 +4,13 @@
 
 ## [JAVA](./java)
 
-## [ORACLE]()
+## [ORACLE](./db_oracle)
 
 ## [Python](./Python)
 
-## [WEB]()
+## [WEB](./web)
 
-## [SPRING]()
+## [SPRING](./spring)
 
 ## 기타
 
