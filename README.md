@@ -15,7 +15,7 @@
 ## 기타
 
 * [Git](./git)
-* [마크다운](./blob/master/markdown.md)
+* [마크다운](./markdown.md)
 
 
 
