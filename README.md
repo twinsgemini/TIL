@@ -10,7 +10,7 @@
 
 ## [WEB](./web)
 
-## [SPRING](./spring)
+## SPRING
 
 ## 기타
 
