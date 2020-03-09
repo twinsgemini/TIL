@@ -94,7 +94,7 @@ javascript / jquery : 구성요소 동적효과
 
  
 
-![img](image\Ajax_Json_02.png)
+![img](image/Ajax_Json_02.png)
 
 
 
