@@ -1,22 +1,18 @@
 # TIL(Today I Learned)
 
-> 매일 배운 내용을 정리하자!
+> 배운 내용을 정리하자!
 
-## [JAVA](./java)
+## [JAVA](./JAVA)
 
-## [ORACLE](./db_oracle)
+## [SQL_ORACLE](./SQL_ORACLE)
 
-## [Python](./Python)
+## [WEB](./WEB)
 
-## [WEB](./web)
-
-## SPRING
+## [SPRING](./SPRING)
 
 ## 기타
 
-* [Git](./git)
-* [마크다운](./markdown.md)
-
-
+* [Git](./GIT)
+* [마크다운(markdown) 기초](./markdown.md)
 
 
