@@ -55,9 +55,9 @@ def foo():
 
 ## 이미지
 
-![보노보노](C:\Users\student\Desktop\TIL\보노보노.jpg)
+![보노보노](C:\Users\student\Desktop\TIL\image\보노보노.jpg)
 
-![보노보노](image/보노보노-1576471241303.jpg)
+![보노보노](image/보노보노.jpg)
 
 
 
