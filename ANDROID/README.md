@@ -8,7 +8,7 @@
 
 * #### [Android를 구성하는 4가지 Component](./Android를_구성하는_4가지_Component.md)
 
-* #### [Activity의 life cycle](./Activity의 life cycle.md)
+* #### [Activity의 life cycle](./Activity의_lifecycle.md)
 
-* #### [Button Event 처리](./Button Event 처리.md)
+* #### [Button Event 처리](./ButtonEvent처리.md)
 
