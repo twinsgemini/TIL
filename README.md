@@ -2,19 +2,19 @@
 
 > 배운 내용을 정리하자!
 
-## [JAVA](./JAVA)
+* #### [JAVA](./JAVA)
 
-## [SQL_ORACLE](./SQL_ORACLE)
+* #### [SQL_ORACLE](./SQL_ORACLE)
 
-## [WEB](./WEB)
+* #### [WEB](./WEB)
 
-## [SPRING](./SPRING)
+* #### [SPRING](./SPRING)
 
-## [ANDROID](./ANDROID)
+* #### [ANDROID](./ANDROID)
 
-## 기타
+* #### 기타
 
-* [Git](./GIT)
-* [마크다운(markdown) 기초](./markdown.md)
+  * [Git](./GIT)
+  * [마크다운(markdown) 기초](./markdown.md)
 
 
