@@ -10,5 +10,15 @@
 
 * #### [Activity의 life cycle](./Activity의_lifecycle.md)
 
-* #### [Button Event 처리](./ButtonEvent처리.md)
+* #### [Button Event 처리](./ButtonEvent.md)
+
+* #### [Touch Event 처리](./TouchEvent.md)
+
+* #### [Swipe Event 처리](./SwipeEvent.md)
+
+* #### [Send Message (Activity -> new Activity)](./SendMessage.md)
+
+* #### [Receive Data (Activity <- new Activity)](./ReceiveData.md)
+
+
 
