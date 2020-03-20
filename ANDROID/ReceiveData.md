@@ -1,6 +1,6 @@
 ## Receive Data (Activity <- new Activity)
 
-**1. Layout & 결과 **
+#### 1. Layout & 결과 
 
 ![ReceiveData_01](./image/ReceiveData_01.png)
 
@@ -18,7 +18,7 @@ Spinner 목록에서 전달할 Data값 선택.
 
 
 
-**2. 코드**
+#### 2. 코드
 
 ▼ xml layout 파일
 

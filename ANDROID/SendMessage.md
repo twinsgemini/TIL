@@ -1,6 +1,6 @@
 ## Send Message (Activity -> new Activity)
 
-**1. Layout & 결과 **
+#### 1. Layout & 결과 
 
 ![SendMessage01](./image/SendMessage01.png)
 
@@ -16,7 +16,7 @@ Alert창에 Text 입력하여 2번 Activity에 값 전달.
 
 
 
-**2. 코드**
+#### 2. 코드
 
 ▼ xml layout 파일
 

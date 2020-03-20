@@ -1,6 +1,6 @@
 ## Touch Event 처리
 
-**1. Layout & 결과 **
+#### 1. Layout & 결과 
 
 ![TouchEvent01](./image/TouchEvent_01.png)
 
@@ -10,7 +10,7 @@
 
 
 
-**2. 코드**
+#### 2. 코드
 
 ```java
 public class Example04_TouchEventActivity extends AppCompatActivity {

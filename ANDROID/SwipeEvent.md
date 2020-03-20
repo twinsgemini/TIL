@@ -1,6 +1,6 @@
 ## Swipe Event 처리
 
-**1. Layout & 결과 **
+#### 1. Layout & 결과 
 
 ![SwipeEvent01](./image/SwipeEvent_01.png)
 
@@ -10,7 +10,7 @@
 
 
 
-**2. 코드**
+#### 2. 코드
 
 ▼ xml layout 파일
 

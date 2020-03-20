@@ -1,6 +1,6 @@
 # Button Event 처리
 
-**1. Layout 형태**
+#### 1. Layout 형태
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -32,7 +32,7 @@ BUTTON 클릭 시 "클릭되면 바뀌어요" 의 문구를 변화시킬 예정.
 
 
 
-**2. 외부 클래스 사용**
+#### 2. 외부 클래스 사용
 
 ```java
 public class ButtonActivity extends AppCompatActivity {
@@ -74,7 +74,7 @@ class MyEventHandler implements View.OnClickListener{
 
 
 
-**3. 익명 내부 클래스(Anonymous Inner Class) 사용**
+#### 3. 익명 내부 클래스(Anonymous Inner Class) 사용
 
 ```java
 public class ButtonActivity extends AppCompatActivity {
@@ -104,7 +104,7 @@ public class ButtonActivity extends AppCompatActivity {
 
 
 
-**4. 실행 화면**
+#### 4. 실행 화면
 
 ![클릭 전 화면](./image/버튼이벤트처리_01.png)
 

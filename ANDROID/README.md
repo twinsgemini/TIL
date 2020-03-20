@@ -6,19 +6,23 @@
 
 
 
-* #### [Android를 구성하는 4가지 Component](./Android를_구성하는_4가지_Component.md)
+#### 1. [Android를 구성하는 4가지 Component](./Android를_구성하는_4가지_Component.md)
 
-* #### [Activity의 life cycle](./Activity의_lifecycle.md)
+#### 2. [Activity의 life cycle](./Activity의_lifecycle.md)
 
-* #### [Button Event 처리](./ButtonEvent.md)
+#### 3. [Button Event 처리](./ButtonEvent.md)
 
-* #### [Touch Event 처리](./TouchEvent.md)
+#### 4. [Touch Event 처리](./TouchEvent.md)
 
-* #### [Swipe Event 처리](./SwipeEvent.md)
+#### 5. [Swipe Event 처리](./SwipeEvent.md)
 
-* #### [Send Message (Activity -> new Activity)](./SendMessage.md)
+#### 6. [Send Message (Activity -> new Activity)](./SendMessage.md)
 
-* #### [Receive Data (Activity <- new Activity)](./ReceiveData.md)
+#### 7. [Receive Data (Activity <- new Activity)](./ReceiveData.md)
+
+#### 8. [Thread & Handler](./Thread&Handler.md)
+
+
 
 
 
